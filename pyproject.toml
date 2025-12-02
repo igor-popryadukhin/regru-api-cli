@@ -1,0 +1,18 @@
+[project]
+name = "regru-cli"
+version = "0.1.0"
+description = "Interactive CLI for REG.RU API"
+authors = [{name = "CLI Maintainer"}]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31",
+  "InquirerPy>=0.3.4",
+]
+
+[project.scripts]
+regru-cli = "regru_cli.__main__:main"
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
