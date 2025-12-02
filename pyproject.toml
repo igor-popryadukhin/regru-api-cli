@@ -23,7 +23,7 @@ dev = [
 ]
 
 [project.scripts]
-regru-cli = "regru_api_cli.cli:main"
+regru-cli = "regru_api_cli.cli:main_cli"
 
 [tool.black]
 line-length = 100
